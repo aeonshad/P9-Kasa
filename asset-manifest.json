@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/P9-Kasa/static/css/main.9f8f3103.css",
+    "main.js": "/P9-Kasa/static/js/main.4cd22e5b.js",
+    "static/media/header2.png": "/P9-Kasa/static/media/header2.640955dab8c7bff25514.png",
+    "static/media/header.png": "/P9-Kasa/static/media/header.19221376a0aa2549c135.png",
+    "index.html": "/P9-Kasa/index.html",
+    "static/media/collapse.svg": "/P9-Kasa/static/media/collapse.b052dd29e3a2bab76700eee79e133c37.svg",
+    "main.9f8f3103.css.map": "/P9-Kasa/static/css/main.9f8f3103.css.map",
+    "main.4cd22e5b.js.map": "/P9-Kasa/static/js/main.4cd22e5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f8f3103.css",
+    "static/js/main.4cd22e5b.js"
+  ]
+}
