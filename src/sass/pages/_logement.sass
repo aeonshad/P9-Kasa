@@ -1,0 +1,74 @@
+.logement
+    &-box-container
+        display: flex
+        justify-content: space-between
+        margin-top: 30px
+    &-box1
+        width: 80%
+    &-box2
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: flex-end
+    &-user
+        display: flex
+        align-items: center
+        &-img
+            width: 64px
+            height: 64px
+            border-radius: 50%
+        &-name
+            color: $primary-color
+            width: 80px
+            text-align: right
+            margin-bottom: auto
+            margin-top: auto
+            margin-right: 10px
+    &-title
+        font-size: 36px
+        color: $primary-color
+        margin-bottom: 10px
+    &-text
+        color: $primary-color
+        margin-bottom: 20px
+    &-wrapper
+        display: flex
+        justify-content: space-between
+        margin-top: 25px
+    &-rating-img
+        width: 24px
+        height: 24px
+        &:not(:last-child)
+            margin-right: 4px
+
+@media screen and (max-width: 778px)
+    .logement
+        &-box-container
+            flex-direction: column
+        &-box1
+            width: 100%
+        &-box2
+            flex-direction: row-reverse
+            margin-top: 16px
+            align-items: center
+
+@media screen and (max-width: 768px)
+    .logement
+        &-title
+            font-size: 18px
+            margin-right: 18px
+        &-text
+            font-size: 14px
+        &-user
+            &-img
+                width: 32px
+                height: 32px
+                border-radius: 50%
+            &-name
+                font-size: 12px
+                width: 52px
+        &-wrapper
+            flex-direction: column
+        &-rating-img
+            width: 24.75px
+            height: 24px
