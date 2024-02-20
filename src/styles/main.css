@@ -72,6 +72,7 @@ body {
 .navbar-link {
   font-size: 24px;
   color: #000000;
+  font-weight: 500;
 }
 .navbar-link:not(:last-child) {
   padding-right: 57px;
@@ -87,7 +88,6 @@ body {
   }
   .navbar-link {
     font-size: 12px;
-    color: #FF6060;
   }
   .navbar-link:not(:last-child) {
     padding-right: 26px;
@@ -169,6 +169,7 @@ body {
   font-size: 14px;
   text-align: center;
   padding: 4px 30px 4px 30px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
@@ -209,7 +210,7 @@ body {
   cursor: pointer;
 }
 .collapse-text {
-  color: #FF6060;
+  color: #000000;
   font-weight: 400;
   line-height: 25px;
 }
@@ -222,7 +223,8 @@ body {
   padding: 20px;
 }
 .collapse-title {
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
@@ -294,6 +296,7 @@ body {
   position: absolute;
   padding: 20px;
   bottom: 0;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1024px) {
@@ -374,7 +377,7 @@ body {
   margin-bottom: 10px;
 }
 .logement-text {
-  color: #FF6060;
+  color: #000000;
   margin-bottom: 20px;
 }
 .logement-wrapper {
@@ -467,12 +470,12 @@ body {
   text-align: center;
 }
 .error-link {
-  color: #FF6060;
+  color: #000000;
   margin-bottom: 140px;
   text-decoration: underline;
 }
 .error-link:hover {
-  color: #8C6D6D;
+  color: #FF6060;
 }
 .error-title {
   color: #FF6060;
