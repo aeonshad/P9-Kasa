@@ -7,18 +7,24 @@ import Footer from './components/footer';
 import Logement from './pages/logement';
 import About from './pages/about';
 
+/**
+ * Composant App
+ * @description Le composant principal de l'application, définissant les routes et la structure globale.
+ */
 function App() {
     return (
         <Router>
-            <main className="main-container">
+            <div className="main-container">
                 <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/logement/:idLogement" element={<Logement />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="*" element={<Error code={404} />} />
-                </Routes>
-            </main>
+                <main>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/logement/:idLogement" element={<Logement />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="*" element={<Error code={404} />} />
+                    </Routes>
+                </main>
+            </div>
             <Footer />
         </Router>
     );

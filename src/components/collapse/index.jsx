@@ -1,7 +1,14 @@
 import { useState } from 'react';
 import icon from '../../assets/collapse.svg';
 
+/**
+ * Composant Collapse
+ * @description Un composant réutilisable pour afficher ou masquer du contenu.
+ * @props {string} title - Le titre de la section.
+ * @props {string|array} content - Le contenu à afficher lorsqu'il est ouvert.
+ */
 function Collapse({ title, content }) {
+    // État pour suivre l'état d'ouverture ou de fermeture du composant
     const [isOpen, setIsOpen] = useState(false);
 
     return isOpen ? (

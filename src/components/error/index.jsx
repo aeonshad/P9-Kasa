@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom';
 import { errorList } from '../../data/error';
 
+/**
+ * Composant Error
+ * @description Un composant représentant une page d'erreur avec un message spécifique en fonction du code d'erreur.
+ * @props {string} code - Le code d'erreur pour afficher le message approprié.
+ */
 function Error({ code }) {
+    // Trouver l'objet d'erreur correspondant au code fourni dans les données d'erreur
     const currentError = errorList.find((error) => error.codeError === code);
 
     return (

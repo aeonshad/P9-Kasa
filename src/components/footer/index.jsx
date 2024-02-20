@@ -1,5 +1,9 @@
 import logo from '../../assets/logo2.png';
 
+/**
+ * Composant Footer
+ * @description Un composant représentant le pied de page de l'application.
+ */
 function Footer() {
     return (
         <footer className="footer">
